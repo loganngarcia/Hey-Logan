@@ -1,0 +1,128 @@
+/*
+
+What does this page do? ❔
+  - Creates Hey Logan's responsive user interface
+  - Makes Hey Logan compatiable with mobile devices
+  
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+	background-color: white;
+	height: 100%;
+	margin: 0;
+  font-size: 15px;
+}
+
+span {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.container {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	width: 100%; 
+	height: 100%;
+}
+
+/*orange text display box settings*/
+.chat {
+	height: 350px;
+	width: 750px;
+  /*60vw*/
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+} 
+
+::-webkit-input-placeholder { 
+	color: .711;
+}
+
+/*user input box*/
+input { 
+  height: 50px;
+  width: 750px;
+  /*width: 255px for mobile;*/
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+  font-family: 'Poppins', san-serif;
+  font-size: 20px;
+	border: 50; 
+  border-color: rgba(40, 36, 36);
+	padding: 10px; 
+	margin-center: auto;
+	border-radius: 30px; 
+  }
+
+
+/*user input callback*/
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(248, 124, 84, 1);
+	padding: 15px;
+	margin: 15px;
+	border-radius: 20px;
+  font-size: 20px;
+  color: rgba(40, 36, 36, 1);
+}
+
+#bot {
+	margin-left: auto;
+}
+
+.bot {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/*controls both pfps*/
+.avatar {
+	height: 50px;
+  width: auto;
+}
+
+.response {
+	display: flex;
+	align-items: center;
+	margin: 1%;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 988px) {
+  .container {
+		flex-direction: column; 
+		justify-content: flex-start;
+	}
+	.chat {
+		width: 75vw;
+		margin: 10vw; 
+  }  
+  input {
+    width: 75vw;
+  }
+}
