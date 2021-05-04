@@ -11,10 +11,12 @@ I think this is a great intro for anyone interested in chatbots and frontend fun
 
 
 
+
 Credits!
 
 
-#Sylvia Pap 
+
+@Sylvia Pap 
 for chatbot template
 
 [Demo](https://sylviapap.github.io/chatbot/)
@@ -24,13 +26,15 @@ for chatbot template
 [GitHub post](https://github.com/sylviapap/chatbot)
 
 
-#Twitter 
+
+@Twitter 
 for bot.png graphics
 
 [Twemoji](https://twemoji.twitter.com/)
 
 Copyright 2018 Twitter, Inc and other contributors
 Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
 
 
 Hey Logan is licensed under Mozilla Public License 2.0
