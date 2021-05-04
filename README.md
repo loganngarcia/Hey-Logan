@@ -18,7 +18,9 @@ Credits!
 for chatbot template
 
 [Demo](https://sylviapap.github.io/chatbot/)
+
 [Blog post](https://dev.to/sylviapap/make-a-simple-chatbot-with-javascript-1gc)
+
 [GitHub post](https://github.com/sylviapap/chatbot)
 
 
@@ -26,6 +28,12 @@ for chatbot template
 for bot.png graphics
 
 [Twemoji](https://twemoji.twitter.com/)
+
 Copyright 2018 Twitter, Inc and other contributors
 Graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/
+
+
+Hey Logan is licensed under Mozilla Public License 2.0
+
+
 
